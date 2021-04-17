@@ -1,3 +1,55 @@
 h1 {
-    color:blueviolet
+    color:#132c33;
+    text-align: center;
+    padding: 30px;
+      font-family: 'Exo 2', sans-serif;
+    
+}
+body {
+    background-color: #d8e3e7;
+    padding-left: 350px;
+    padding-right: 350px;
+    color: #132c33;
+}
+
+.container {
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 4px;
+    padding: 40px;
+    background-color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.firstPart, .secondPart {
+    padding: 30px;
+}
+.picture {
+    padding-top: 50px;
+}
+.day, .temperature {
+    font-size: 40px;
+}
+.units {
+    position: relative;
+    top: -20px;
+}
+
+.secondPart li {
+    display: inline;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.col-3 {
+    border: 1px solid gray;
+    border-radius: 4px;
+     padding: 10px;
+     text-align: center;
+   
 }

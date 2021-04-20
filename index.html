@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
         <h1>Monday 12:23</h1>
@@ -19,11 +20,14 @@
          
     <form>
         <div class="row">
-            <div class="col-8">
+            <div class="col-7">
     <input type="search" placeholder="Enter a city" id="EnterCity"  class="form-control">
     </div>
-    <div class="col-4">
+    <div class="col-3">
     <input type="button" value="Search" id="search"  class="form-control btn-dark">
+    </div>
+    <div class="col-2">
+        <input type="button" value="⏚" id="current" class="form-control btn-dark">
     </div>
     </div>
     </form>
@@ -33,13 +37,13 @@
         <div class="col-8">
 <ul class="firstPart">
     <li>
-      <span class="day">Brno</span>   <span class="temperature">20</span> <span class="units">°C</span>
+      <span class="city" id="city">Brno</span>   <span class="temperature" id="temperature">20</span> <span class="units" id="units">°C</span>
     </li>
     <li>
-        humidity
+        Humidity: <span id="humidity"></span> %
     </li>
     <li>
-        wind
+        Wind: <span id="wind"></span> km/h
     </li>
     
 </ul>

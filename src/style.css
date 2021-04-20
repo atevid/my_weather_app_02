@@ -1,18 +1,21 @@
-h1 {
-    color:#132c33;
-    text-align: center;
-    padding: 30px;
-    font-family: 'Exo 2', sans-serif;  
-}
+
 body {
     background-color: #d8e3e7;
     color: #132c33;
+    font-family: 'Exo 2', sans-serif;  
 }
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
 li {
     list-style: none;
 }
 .weather-app {
     max-width: 40%;
+    min-width: 40%;
     margin: 15px auto;
     border: 1px solid rgb(138, 138, 138);
     border-radius: 4px;
@@ -23,11 +26,13 @@ li {
 }
 .firstPart, .secondPart {
     padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .picture {
     padding-top: 50px;
 }
-.day, .temperature {
+.city, .temperature {
     font-size: 40px;
 }
 .units {
@@ -43,13 +48,10 @@ li {
     border-radius: 4px;
 }
 
-.col-3 {
+.bottom {
     border: 1px solid gray;
     border-radius: 4px;
     padding: 10px;
     text-align: center;
 }
 
-.bottom {
-    padding-top: 100px;
-}
